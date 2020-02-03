@@ -16,12 +16,17 @@
 
 .nav {
   &-item {
-    $pd: 10px;
-    padding: $pd;
-    width: calc(100% - $pd * 2);
+    width: 100%;
+  }
+
+  &-link {
+    padding: 10px;
+    width: calc(100% - 20px);
+    display: inline-block;
     cursor: pointer;
+    transition: background-color .2s;
     &:hover {
-      background-color: darken($green, 40%);
+      background-color: darken($green, 30%);
     }
   }
 }

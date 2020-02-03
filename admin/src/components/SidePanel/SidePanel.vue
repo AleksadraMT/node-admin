@@ -2,7 +2,7 @@
   #sidepanel.sidepanel
     nav#nav
       .nav-item
-        router-link(to="/") Home
+        router-link.nav-link(to="/") Home
 </template>
 
 <script>
