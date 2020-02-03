@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1em;
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  &-right-side {
+    min-width: 200px;
+    background-color: #aaa;
+  }
+}
