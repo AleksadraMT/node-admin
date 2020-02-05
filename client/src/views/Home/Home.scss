@@ -1,0 +1,16 @@
+@mixin full-size {
+  width: 100%;
+  height: 100%;
+}
+
+.home {
+  @include full-size;
+
+  &-bg-pic {
+    background-size: contain;
+  }
+
+  &-wrapper {
+    @include full-size;
+  }
+}

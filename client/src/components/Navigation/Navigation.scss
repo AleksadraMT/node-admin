@@ -1,0 +1,36 @@
+@import './../../style/variables.scss';
+
+.nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  padding: 10px;
+
+  &-link {
+    text-decoration: none;
+    color: $white;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    &:first-child {
+      padding-left: 0;
+    }
+    &:last-child {
+      padding-right: 0;
+    }
+    
+    font: {
+      family: 'Lato';
+      weight: 300;
+    }
+    transition: letter-spacing .2s;
+
+    &:hover,
+    &:active,
+    &:focus {
+      text-decoration: none;
+      letter-spacing: 1.2px;
+    }
+  }
+}
