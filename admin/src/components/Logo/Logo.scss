@@ -1,5 +1,11 @@
 .logo {
   &-text {
-    
+    font: {
+      family: 'Lato';
+      weight: 400;
+      size: 24px;
+    };
+    letter-spacing: -2px;
+    line-height: 1.5em;
   }
 }

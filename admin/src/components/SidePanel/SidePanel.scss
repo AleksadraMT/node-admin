@@ -1,0 +1,27 @@
+@import '../../style/variables.scss';
+
+.sidepanel {
+  background-color: $dark;
+  height: 100%;
+  color: $white-font;
+
+  a {
+    color: $white-font;
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.nav {
+  &-item {
+    $pd: 10px;
+    padding: $pd;
+    width: calc(100% - $pd * 2);
+    cursor: pointer;
+    &:hover {
+      background-color: darken($green, 40%);
+    }
+  }
+}

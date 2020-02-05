@@ -1,7 +1,8 @@
 <template lang="pug">
-  #sidepanel
+  #sidepanel.sidepanel
     nav#nav
-      <router-link to="/">Home</router-link>
+      .nav-item
+        router-link(to="/") Home
 </template>
 
 <script>
