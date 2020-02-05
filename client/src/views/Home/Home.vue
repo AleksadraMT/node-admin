@@ -1,6 +1,8 @@
 <template lang="pug">
   #home.home.home-bg-pic( :style="{'background-image': 'url(' + image + ')'}")
-    .home-wrapper
+    .container
+      .container-wrapper
+        div Home content
 </template>
 
 <script>

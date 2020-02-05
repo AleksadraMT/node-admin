@@ -1,10 +1,36 @@
+@import './style/variables.scss';
+
+@mixin fullSize {
+  width: 100%;
+  height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: $white;
+  font: {
+    family: 'Roboto';
+    weight: 300;
+  }
 }
 
 .app {
   width: 100vw;
   height: 100vh;
+
+  &-content {
+    @include fullSize;
+  }
+}
+
+.container {
+  @include fullSize;
+
+  background-color: rgba($color: #000000, $alpha: .6);
+
+  &-wrapper {
+    padding: 50px 10px 10px 10px;
+  }
 }
